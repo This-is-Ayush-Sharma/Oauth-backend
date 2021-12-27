@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 const { OAuth2Client } = require('google-auth-library');
 
-const client = new OAuth2Client("905154661025-67tlgshoj5of6fcsnmeq9tvv85svpph6.apps.googleusercontent.com");
+const client = new OAuth2Client("905154661025-11n1te9q1s70ohnnsqgcavpjhjcbatkc.apps.googleusercontent.com");
 
 router.get('/msg', (req, res) => {
     res.json({
